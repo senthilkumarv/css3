@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/master.css" type="text/css" media="screen" charset="utf-8" />
+		<title>Multiple Border Colors</title>
+		<style type="text/css" media="screen">
+div.rectangle {
+	background-color: hsla(240, 50%, 40%, 0.2);
+	-moz-border-top-colors: #FF0000 #FF0000 #FF0000 #00FF00 #00FF00 #00FF00 #0000FF #0000FF #0000FF #FF00FF #FF00FF #FF00FF;
+	-moz-border-bottom-colors: #FF0000 #FF0000 #FF0000 #00FF00 #00FF00 #00FF00 #0000FF #0000FF #0000FF #FF00FF #FF00FF #FF00FF;
+	-moz-border-left-colors: #FF0000 #FF0000 #FF0000 #00FF00 #00FF00 #00FF00 #0000FF #0000FF #0000FF #FF00FF #FF00FF #FF00FF;
+	-moz-border-right-colors: #FF0000 #FF0000 #FF0000 #00FF00 #00FF00 #00FF00 #0000FF #0000FF #0000FF #FF00FF #FF00FF #FF00FF;
+}
+#style1 {
+	background-size: 500px 25px;
+}
+#style2 {
+	background-size: 500px 25px;
+}
+		</style>
+	</head>
+	<body>
+		<div class="rectangle" id="style1"></div>
+		<div class="rectangle" id="style2"></div>
+	</body>
+</html>

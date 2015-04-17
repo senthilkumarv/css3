@@ -1,0 +1,12 @@
+.rectangle {
+	position: relative;
+	width: 500px;
+	height: 100px;
+	left: 0px;
+	text-align: center;
+	font-style: italic;
+	font-style: bold;
+	margin-bottom: 20px;
+	border-width: 5px;
+	border-style: solid;
+}

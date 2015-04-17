@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/master.css" type="text/css" media="screen" charset="utf-8" />
+		<title>Transistions</title>
+		<style type="text/css" media="screen">
+			div { 
+				border-radius: 10px;
+				-moz-border-radius: 10px;
+				background-color: blue; 
+			}
+			#style1 {
+				-webkit-transform: translate(20px, 30px);
+				-moz-transform: translate(20px, 30px);
+				opacity: 0.2;
+				background: -moz-linear-gradient(90deg, #ccc, #000);
+				background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000));
+			}
+			
+			#style2 {
+				-webkit-transform: translate(0px, 10px);
+				-moz-transform: translate(0px, 10px);
+				background: -webkit-gradient(radial, 64 64, 100, 100 44, 40, from(#fcfcfc), to(#cf0c13), color-stop(.6,#e88787));
+				background: -moz-repeating-radial-gradient(19% 75% 106deg,circle closest-side, #C70000, #C99DA6, #C7C7C7 100%);
+				opacity: 0.6;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="rectangle" id="style1"></div>
+		<div class="rectangle" id="style2"></div>
+		<div>background: -webkit-gradient(linear, left top, left bottom, from(#ccc), to(#000));</div>
+		<div>background: -moz-linear-gradient(top,  #ccc,  #000);</div>
+		<div>filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000');</div>
+	</body>
+</html>

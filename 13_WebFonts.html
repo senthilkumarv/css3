@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles/master.css" type="text/css" media="screen" charset="utf-8" />
+		<title>Web Fonts</title>
+		<style type="text/css" media="screen">
+			.title {
+				text-shadow: 10px 10px 10px #333;
+				font-family: Demo;
+			}
+			.inlineText {
+				font-family: Demo;
+			}
+			#style1 {
+				height: 265px;
+				width: 800px;
+				overflow: hidden;
+				text-align: justify;
+				-webkit-column-count: 3;
+				-webkit-column-rule: 1px solid #bbb;
+				-webkit-column-gap: 1em;
+				-moz-column-count: 3;
+				-moz-column-rule: 1px solid #bbb;
+				-moz-column-gap: 1em;
+			}
+			@font-face {
+				font-family: Demo;
+				font-style:   bold;
+				font-weight: normal;
+				src: url(fonts/DemoFont.otf) format("opentype");
+			}
+		</style>
+	</head>
+	<body>
+		<h1 class="title">Some Text Here</h1>
+		<div class="rectangle" id="style1">
+			The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.
+			<span class="inlineText">The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.</span>
+			The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.
+			The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.  The quick brown fox jumps over the lazy dog.
+			</div>
+	</body>
+</html>
